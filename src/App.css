@@ -1,0 +1,51 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  outline: none;
+}
+:root {
+  --main-color: #28be97;
+  --text-color: #777;
+  --bg-color: #e7f7f6;
+  --outer-shadow: 3px 3px 3px #d0d0d0, -3px -3px 3px #f8f8f8;
+  --outer-shadow-0: 0 0 0 #d0d0d0, 0 0 0 #f8f8f8;
+  --inner-shadow: inset 3px 3px 3px #d0d0d0, inset -3px -3px 3px #f8f8f8;
+  --inner-shadow-0: inset 0 0 0 #d0d0d0, inset 0 0 0 #f8f8f8;
+}
+img {
+  max-width: 100%;
+  vertical-align: middle;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button {
+  background: none;
+  border: none;
+}
+.navbar-nav .nav-link {
+  font-size: 18px;
+}
+.logo {
+  font-size: 18px;
+  text-decoration: none;
+  color: #002c3e;
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+  text-transform: uppercase;
+}
+.home-layout {
+  background-image: url(../src/assets/hero2.jpg);
+  height: calc(100vh - 60px);
+  color: #e7f7f6;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
